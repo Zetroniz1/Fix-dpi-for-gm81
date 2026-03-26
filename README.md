@@ -8,7 +8,7 @@ Create event "Game start"
 Toggle object as "Persistent"
 
 GML Code for game start:
-
+```text
 global.func_fix_dpi = external_define(
 
     "fix_dpi.dll", 
@@ -22,7 +22,7 @@ if (global.func_fix_dpi != -1) {
 } else {
     show_message("DLL File not found, check your directory! (fix_dpi.dll)");
 }
-
+```
 GML Code for game end:
-
+```text
 external_free("fix_dpi.dll");
