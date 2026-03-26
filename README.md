@@ -1,6 +1,7 @@
 For using this dll in your GM81 game, you need to:
 
 Download or compilate dll
+
 Create object for dpi fix (Any name)
 
 Create event "Game start"
